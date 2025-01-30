@@ -1,13 +1,13 @@
 {
   "dependencies": {
     "express": "^4.21.2",
+    "mongoose": "^8.9.2",
     "nodemon": "^3.1.9"
   },
   "name": "furni_backend",
   "version": "1.0.0",
   "description": "This is backend for furni e-commerce web application.",
   "main": "app.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
