@@ -1,4 +1,6 @@
 const express = require("express");
+require('dotenv').config()
+// console.log(process.env)
 const mongoose = require("mongoose");
 const app = express();
 
@@ -6,31 +8,14 @@ const app = express();
 
 app.use(express.json());
 
-app.listen(5000, () => {
-  console.log("Server is started");
+app.listen(process.env.PORT, () => {
+  console.log("Server is started "+ `${process.env.PORT}`);
 });
 
 
-app.use("/api/users",)
-app.use("/api/users",)
+app.use("/api/users",()=>{})
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// database connection
 
 mongoose
   .connect("mongodb+srv://dhananjayshukla199:rcUvL0yQwSoJxe4j@cluster1.q0rg9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1")
