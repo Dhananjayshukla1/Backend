@@ -6,24 +6,24 @@ const mongoose = require("mongoose");
 const userSchema = new mongoose.Schema(
   {
     username: {
-      type: string,
+      type: String,
       required: true,
       unique: true,
     },
     email: {
-      type: string,
+      type: String,
       required: true,
       unique: true,
       lowercase: [true, "email should be in lowercase"],
     },
     password: {
-      type: string,
+      type: String,
       required: true,
       min: [6, "Must be atleast 6, got {value}"],
       max: 12,
     },
     confirmPassword: {
-      type: string,
+      type: String,
       required: true,
       min: [6, "Must be atleast 6, got {value}"],
       max: 12,
