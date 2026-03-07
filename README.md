@@ -1,8 +1,8 @@
-# Furni Backend
+# **Furni Backend**
 
 The **Furni Backend** powers the Furni furniture e-commerce platform, providing secure and scalable APIs for managing products, orders, and user data. Built with **Node.js**, **Express.js**, and **MongoDB Atlas**, it ensures a seamless backend infrastructure for an exceptional shopping experience.
 
-## Features
+## **Features**
 - **Product Management**: Add, update, and delete furniture items with image handling via Cloudinary.  
 - **Order Handling**: Manage order placement, tracking, and status updates.  
 - **User Authentication**: Secure login and registration with JWT-based authentication.  
@@ -10,7 +10,7 @@ The **Furni Backend** powers the Furni furniture e-commerce platform, providing 
 - **Payment Integration**: Ready for third-party payment gateways.  
 - **Admin Role**: Role-based access control for secure admin operations.  
 
-## Tech Stack
+**## Tech Stack**
 - **Node.js** & **Express.js** for server-side logic and API development.  
 - **MongoDB Atlas** for secure and scalable NoSQL data storage.  
 - **Cloudinary** for image upload and storage.  
